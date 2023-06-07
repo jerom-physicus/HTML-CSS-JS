@@ -1,0 +1,53 @@
+To append a li in HTML using javascript.
+
+add.innerHTML += `<li>${items}</li>`;
+here,
+   items is the variable which holds the value
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+To access a data in a dictionary:
+
+let data = {
+    "1" :"jerom",
+    "2" : "2005"
+}
+console.log(Object(data))
+
+----------------------------------------------------------
+To access only the keys:
+
+let data = {
+    "1" :"jerom",
+    "2" : "2005"
+}
+console.log(Object.keys(data))
+
+----------------------------------------------------------
+
+To access only the values:
+
+let data = {
+    "1" :"jerom",
+    "2" : "2005"
+}
+console.log(Object.values(data))
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+To refresh an HTML page using javascript:
+
+location.reload();
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Creating an HTML element in javascript.
+
+let newEl = document.createElement("li")
+  newEl.textContent =values
+  "divId".append(newEl)
+
+here,
+    I created a new list element and appending it in the div.textContent is used to add the content in the list.
+
+----------------------------------------------------------------------------------------------------------------------------
